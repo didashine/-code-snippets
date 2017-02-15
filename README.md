@@ -3,6 +3,7 @@
 *  @example：?id=12345&a=b
 *  @return Object{id:12345,a:b}
 * */
+
 function urlParse() {
     //获取到?id=12345&a=b
     let url = window.location.search;           
